@@ -41,6 +41,7 @@ window.fbAsyncInit = function() {
   }
 
   function wyswietl_dane(user){
+	  console.log(user);
     document.getElementById('naglowek').innerHTML = `Witaj, ${user.name}!`;
     let profil = `
       <ul class="list-group">
