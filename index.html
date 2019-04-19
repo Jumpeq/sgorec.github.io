@@ -12,6 +12,12 @@
     <div class="navbar" id="myNavbar">
         <a href="http://sgorec.cba.pl/">Strona główna</a>
 		<a href="https://jumpeq.github.io/sgorec.github.io/">FB</a>
+		<a><fb:login-button
+					class="nav-item nav-link"
+					id="fb-btn"
+					scope="public_profile,email"
+					onlogin="checkLoginState();">
+				</fb:login-button></a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -24,13 +30,7 @@
 				<script src="fbapp.js"></script>
 				<div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
 				<ul class="nav navbar-nav">
-				<li><a class="nav-item nav-link" id="logout" href="#" onclick="wyloguj()">Wyloguj się</a></li>
-				<li><fb:login-button
-					class="nav-item nav-link"
-					id="fb-btn"
-					scope="public_profile,email"
-					onlogin="checkLoginState();">
-				</fb:login-button></li>
+				<li><a class="nav-item nav-link" id="logout" href="#" onclick="wyloguj()">Wyloguj się</a></li>				
 				</ul>
 				</div>
 				<div class="row">
