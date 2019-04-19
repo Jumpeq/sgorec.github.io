@@ -4,17 +4,17 @@
     <title>Main</title>
     <link type="text/css" rel="stylesheet" href="css/style.css" />
     <link type="text/css" rel="stylesheet" href="css/styleMemory.css" />
-	<link type="text/css" rel="stylesheet" href="css/fb_arkusz.css">
+	<link type="text/css" rel="stylesheet" href="fb_arkusz.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">	
 </head>
 <body class="background">
     <div class="navbar" id="myNavbar">
-        <a onclick="openCity(event, 'tab1')" id="defaultOpen">Strona główna</a>
-        <a onclick="openCity(event, 'tab2')">Zadanie 1</a>
-        <a onclick="openCity(event, 'tab3')">Zadanie 2</a>
-        <a onclick="openCity(event, 'tab4')">Zadanie 3</a>
-		<a onclick="openCity(event, 'tab5')">Zadanie 4</a>
+        <a>Strona główna</a>
+        <a>Zadanie 1</a>
+        <a>Zadanie 2</a>
+        <a>Zadanie 3</a>
+		<a>Zadanie 4</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -23,212 +23,8 @@
         <div class="push">
         </div>
         <div class="center">
-            <div id="tab1" class="tabcontent">
-                <p style="text-align:center"><b>Seweryn Górecki</b></p>
-            </div>
-            <div id="tab2" class="tabcontent">
-                <div class="left">
-                    <p>
-                        How does it feel
-                        To treat me like you do
-                        When you've layed your hands upon me
-                        And told me who you are
-                        I thought I was mistaken
-                        I thought I heard your words
-                        Tell me how do I feel
-                        Tell me now how do I feel
-                        Those who came before me
-                        Lived through their vocations
-                        From the past until completion
-                        They will turn away no more
-                        And I still find it so hard to
-                        To say what I need to say
-                        But, I'm quite sure that you'll tell me
-                        Just how I should feel today
-                        I see a ship in the harbor
-                        I can and shall obey
-                        But if it wasn't for your misfortune
-                        I'd be a heavenly person today
-                        And I thought I was mistaken
-                        And I thought I heard you speak
-                        Tell me how do I feel
-                        Tell me now how should I feel
-                        Now I stand here waiting
-                        I thought I told you to leave me
-                        While I walked down to the beach
-                        Tell me how does it feel
-                        When your heart grows cold
-                        grows cold, grows cold, grows cold
-                    </p>
-                </div>
-                <div class="main">
-                    <p>
-                        How does it feel
-                        To treat me like you do
-                        When you've layed your hands upon me
-                        And told me who you are
-                        I thought I was mistaken
-                        I thought I heard your words
-                        Tell me how do I feel
-                        Tell me now how do I feel
-                        Those who came before me
-                        Lived through their vocations
-                        From the past until completion
-                        They will turn away no more
-                        And I still find it so hard to
-                        To say what I need to say
-                        But, I'm quite sure that you'll tell me
-                        Just how I should feel today
-                        I see a ship in the harbor
-                        I can and shall obey
-                        But if it wasn't for your misfortune
-                        I'd be a heavenly person today
-                        And I thought I was mistaken
-                        And I thought I heard you speak
-                        Tell me how do I feel
-                        Tell me now how should I feel
-                        Now I stand here waiting
-                        I thought I told you to leave me
-                        While I walked down to the beach
-                        Tell me how does it feel
-                        When your heart grows cold
-                        grows cold, grows cold, grows cold
-                    </p>
-                </div>
-                <div class="right">
-                    <p>
-                        How does it feel
-                        To treat me like you do
-                        When you've layed your hands upon me
-                        And told me who you are
-                        I thought I was mistaken
-                        I thought I heard your words
-                        Tell me how do I feel
-                        Tell me now how do I feel
-                        Those who came before me
-                        Lived through their vocations
-                        From the past until completion
-                        They will turn away no more
-                        And I still find it so hard to
-                        To say what I need to say
-                        But, I'm quite sure that you'll tell me
-                        Just how I should feel today
-                        I see a ship in the harbor
-                        I can and shall obey
-                        But if it wasn't for your misfortune
-                        I'd be a heavenly person today
-                        And I thought I was mistaken
-                        And I thought I heard you speak
-                        Tell me how do I feel
-                        Tell me now how should I feel
-                        Now I stand here waiting
-                        I thought I told you to leave me
-                        While I walked down to the beach
-                        Tell me how does it feel
-                        When your heart grows cold
-                        grows cold, grows cold, grows cold
-                    </p>
-                </div>
-            </div>
-            <div id="tab3" class="tabcontent">
-                <div class="center">
-                    <button id="restart" class="game-start" onclick="startGame()">Nowa gra</button>
-                    <table id="board">
-                        <tr class="row">
-                            <td id="a1" onclick="check(event, this.id)"></td>
-                            <td id="a2" onclick="check(event, this.id)"></td>
-                            <td id="a3" onclick="check(event, this.id)"></td>
-                            <td id="a4" onclick="check(event, this.id)"></td>
-                            <td id="a5" onclick="check(event, this.id)"></td>
-                        </tr>
-                        <tr class="row">
-                            <td id="a6" onclick="check(event, this.id)"></td>
-                            <td id="a7" onclick="check(event, this.id)"></td>
-                            <td id="a8" onclick="check(event, this.id)"></td>
-                            <td id="a9" onclick="check(event, this.id)"></td>
-                            <td id="a10" onclick="check(event, this.id)"></td>
-                        </tr>
-                        <tr class="row">
-                            <td id="a11" onclick="check(event, this.id)"></td>
-                            <td id="a12" onclick="check(event, this.id)"></td>
-                            <td id="a13" onclick="check(event, this.id)"></td>
-                            <td id="a14" onclick="check(event, this.id)"></td>
-                            <td id="a15" onclick="check(event, this.id)"></td>
-                        </tr>
-                        <tr class="row">
-                            <td id="a16" onclick="check(event, this.id)"></td>
-                            <td id="a17" onclick="check(event, this.id)"></td>
-                            <td id="a18" onclick="check(event, this.id)"></td>
-                            <td id="a19" onclick="check(event, this.id)"></td>
-                            <td id="a20" onclick="check(event, this.id)"></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div id="tab4" class="tabcontent">
-                <div style="text-align:center">
-                    <p>Formularz Rejestracyjny</p>
-                    <form method="post" onsubmit="return Sprawdz();">
-                        <p>Imię:</p>
-                        <input type="text" name="imię" placeholder="Janusz" />
-                        <p>Nazwisko:</p>
-                        <input type="text" name="nazwisko" placeholder="Kowalski" />
-                        <p>Miasto:</p>
-                        <input type="text" name="miasto" placeholder="Podaj miasto" />
-                        <p>Ulica:</p>
-                        <input type="text" name="ulica" placeholder="Podaj ulicę" />
-                        <p>Nr domu:</p>
-                        <input type="text" name="nrdomu" placeholder="Podaj nr domu" />
-                        <p>Nr mieszkania:</p>
-                        <input type="text" name="nrmieszkania" placeholder="Podaj nr mieszkania" />
-                        <p>Kod pocztowy:</p>
-                        <input type="text" name="kodpocztowy" placeholder="XX-XXX" />
-                        <p>Województwo:</p>
-                        <select name="wojewodztwa">
-                            <option value="dol">Dolnośląskie</option>
-                            <option value="kujp">Kujawsko-Pomorskie</option>
-                            <option value="lubel">Lubelskie</option>
-                            <option value="lubu">Lubuskie</option>
-                            <option value="lodz">Łódzkie</option>
-                            <option value="malop">Małopolskie</option>
-                            <option value="mazow">Mazowieckie</option>
-                            <option value="opol">Opolskie</option>
-                            <option value="podk">Podkarpackie</option>
-                            <option value="podl">Podlaskie</option>
-                            <option value="pomo">Pomorskie</option>
-                            <option value="sla">Śląskie</option>
-                            <option value="swiet">Świętokrzyskie</option>
-                            <option value="warmaz">Warmińśko-Mazurskie</option>
-                            <option value="wielk">Wielkopolskie</option>
-                            <option value="zach">Zachodniopomorskie</option>
-                        </select>
-                        <p>Adres E-mail:</p>
-                        <input type="text" name="email" placeholder="nazwa@domena.com" />
-                        <p>Nr telefonu:</p>
-                        <input type="text" name="telefon" placeholder="123456789" />
-                        <p>Data urodzenia:</p>
-                        <input type="text" name="dataur" placeholder="dd.mm.rr" />
-                        <p>
-                            Płeć:
-                            <input type="radio" name="płeć" value="Mężczyzna" /> Mężczyzna
-                            <input type="radio" name="płeć" value="Kobieta" /> Kobieta
-                        </p>
-                        <p>
-                            Prawo jazdy:
-                            <input type="checkbox" name="prawo" value="Mam prawo jazdy" />Mam prawo jazdy
-                        </p>
-                        <p>Uwagi:</p>
-                        <textarea name="uwagi" rows="8" cols="30" placeholder="Uwagi dla administratora..."></textarea>
-
-                        <div>
-                            <input type="reset" name="anuluj" value="ANULUJ" />
-                            <input type="submit" name="wyslij" value="WYŚLIJ" />
-                        </div>
-                    </form>
-                </div>
-            </div>
-			<div id="tab5" class="tabcontent">
-				<script src="js/fbapp.js"></script>
+			<div class="tabcontent">
+				<script src="fbapp.js"></script>
 				<div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
 				<ul class="nav navbar-nav">
 				<li><a class="nav-item nav-link" id="logout" href="#" onclick="wyloguj()">Wyloguj się</a></li>
@@ -252,33 +48,5 @@
     <div class="footer">
         <p>® 2019 Programowanie w Internecie</p>
     </div>
-    <script src="js/script.js" type="text/javascript"></script>
-	<script src="js/checkRegex.js" type="text/javascript"></script>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myNavbar");
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar";
-            }
-        }
-        function openCity(evt, cityName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-
-        // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
-    </script>
 </body>
 </html>
